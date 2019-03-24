@@ -1,0 +1,273 @@
+[{
+	"_id": {
+		"$oid": "5c8e98d0de9f7300207085e5"
+	},
+	"duid": "356308049678185",
+	"type": "alarm",
+	"time": {
+		"$date": "2019-03-17T18:58:23.979Z"
+	},
+	"deviceTime": {
+		"$date": "2019-03-17T18:58:19.504Z"
+	},
+	"lat": -37.902011,
+	"lng": 175.48452799999998,
+	"speed": 0,
+	"heading": 94,
+	"alert": "acc-on",
+	"raw": "1552849099,1552849100,1552849100,175484528,-37902011,94,101,740968,10,1,0,0,0,,2000,2000,\u001a,0,73,41,123,21,8,0,0,1,6742,234,53001,FFA00002FBE8\u001a,%TW%AT%BV%MV%GQ%SA%AV1%PK%EG%CE%LC%CN%GV%CI",
+	"other": {
+		"header": {
+			"imei": "356308049678185",
+			"crc": "717C",
+			"length": "399",
+			"sequence_id": "55889"
+		},
+		"gps_date": "2019-03-17T18:58:19.000Z",
+		"rtc_date": "2019-03-17T18:58:20.000Z",
+		"position_sending_date": "2019-03-17T18:58:20.000Z",
+		"event_code": 101,
+		"alertInput": 1,
+		"mileage": 74096.8,
+		"hdop": 1,
+		"state": {
+			"inputs": [null, 1, 0, 0, 0, 0, 0, 0, 0],
+			"outputs": [null, 0, 0, 0, 0, 0, 0, 0, 0]
+		},
+		"analog_input": 0,
+		"driver_id": "",
+		"tow_status": 0,
+		"altitude": 73,
+		"backup_voltage": 4.1000000000000005,
+		"main_voltage": 12.3,
+		"gsm_signal": 21,
+		"gps_satellites": 8,
+		"analog_voltage": 0,
+		"parked": 0,
+		"engine_status": 1,
+		"cell_id": 6742,
+		"cell_lac": 234,
+		"cell_mcc_mnc": 53001,
+		"g_sensor_max": {
+			"x": -96,
+			"y": 2,
+			"z": -1048
+		},
+		"custom_string": "%TW%AT%BV%MV%GQ%SA%AV1%PK%EG%CE%LC%CN%GV%CI"
+	},
+	"isAccOn": true,
+	"_device": {
+		"$oid": "5966ad8699adb20700325dd6"
+	},
+	"_asset": {
+		"$oid": "5966adeb99adb20700325dda"
+	},
+	"_organisation": {
+		"$oid": "59226faa1ddb40fb3fdc4334"
+	},
+	"_location": null,
+	"location": "33, Hemans St, Leamington, Cambridge"
+}, {
+   	"_id": {
+   		"$oid": "5c8e98e2de9f7300207086b3"
+   	},
+   	"duid": "356308049678185",
+   	"type": "position",
+   	"time": {
+   		"$date": "2019-03-17T18:58:42.037Z"
+   	},
+   	"deviceTime": {
+   		"$date": "2019-03-17T18:58:39.715Z"
+   	},
+   	"lat": -37.902011,
+   	"lng": 175.48452799999998,
+   	"speed": 0,
+   	"heading": 94,
+   	"alert": null,
+   	"raw": "1552849119,1552849120,1552849120,175484528,-37902011,94,2,740968,10,1,0,0,0,,2000,2000,\u001a,0,73,41,140,21,8,0,0,1,6742,234,53001,FFCC0002FC0C\u001a,%TW%AT%BV%MV%GQ%SA%AV1%PK%EG%CE%LC%CN%GV%CI",
+   	"other": {
+   		"header": {
+   			"imei": "356308049678185",
+   			"crc": "F4BE",
+   			"length": "209",
+   			"sequence_id": "55890"
+   		},
+   		"gps_date": "2019-03-17T18:58:39.000Z",
+   		"rtc_date": "2019-03-17T18:58:40.000Z",
+   		"position_sending_date": "2019-03-17T18:58:40.000Z",
+   		"event_code": 2,
+   		"mileage": 74096.8,
+   		"hdop": 1,
+   		"state": {
+   			"inputs": [null, 1, 0, 0, 0, 0, 0, 0, 0],
+   			"outputs": [null, 0, 0, 0, 0, 0, 0, 0, 0]
+   		},
+   		"analog_input": 0,
+   		"driver_id": "",
+   		"tow_status": 0,
+   		"altitude": 73,
+   		"backup_voltage": 4.1000000000000005,
+   		"main_voltage": 14,
+   		"gsm_signal": 21,
+   		"gps_satellites": 8,
+   		"analog_voltage": 0,
+   		"parked": 0,
+   		"engine_status": 1,
+   		"cell_id": 6742,
+   		"cell_lac": 234,
+   		"cell_mcc_mnc": 53001,
+   		"g_sensor_max": {
+   			"x": -52,
+   			"y": 2,
+   			"z": -1012
+   		},
+   		"custom_string": "%TW%AT%BV%MV%GQ%SA%AV1%PK%EG%CE%LC%CN%GV%CI"
+   	},
+   	"isAccOn": true,
+   	"_device": {
+   		"$oid": "5966ad8699adb20700325dd6"
+   	},
+   	"_asset": {
+   		"$oid": "5966adeb99adb20700325dda"
+   	},
+   	"_organisation": {
+   		"$oid": "59226faa1ddb40fb3fdc4334"
+   	},
+   	"_location": null
+   },
+	{
+		"_id": {
+			"$oid": "5c8e98f60c4389001f36a64d"
+		},
+		"duid": "356308049678185",
+		"type": "position",
+		"time": {
+			"$date": "2019-03-17T18:59:02.181Z"
+		},
+		"deviceTime": {
+			"$date": "2019-03-17T18:58:59.965Z"
+		},
+		"lat": -37.902011,
+		"lng": 175.48452799999998,
+		"speed": 0,
+		"heading": 94,
+		"alert": null,
+		"raw": "1552849139,1552849140,1552849140,175484528,-37902011,94,2,740968,10,1,0,0,0,,2000,2000,\u001a,0,73,41,140,22,8,0,0,1,6742,234,53001,FFAC0012FBE0\u001a,%TW%AT%BV%MV%GQ%SA%AV1%PK%EG%CE%LC%CN%GV%CI",
+		"other": {
+			"header": {
+				"imei": "356308049678185",
+				"crc": "F3A3",
+				"length": "209",
+				"sequence_id": "55891"
+			},
+			"gps_date": "2019-03-17T18:58:59.000Z",
+			"rtc_date": "2019-03-17T18:59:00.000Z",
+			"position_sending_date": "2019-03-17T18:59:00.000Z",
+			"event_code": 2,
+			"mileage": 74096.8,
+			"hdop": 1,
+			"state": {
+				"inputs": [null, 1, 0, 0, 0, 0, 0, 0, 0],
+				"outputs": [null, 0, 0, 0, 0, 0, 0, 0, 0]
+			},
+			"analog_input": 0,
+			"driver_id": "",
+			"tow_status": 0,
+			"altitude": 73,
+			"backup_voltage": 4.1000000000000005,
+			"main_voltage": 14,
+			"gsm_signal": 22,
+			"gps_satellites": 8,
+			"analog_voltage": 0,
+			"parked": 0,
+			"engine_status": 1,
+			"cell_id": 6742,
+			"cell_lac": 234,
+			"cell_mcc_mnc": 53001,
+			"g_sensor_max": {
+				"x": -84,
+				"y": 18,
+				"z": -1056
+			},
+			"custom_string": "%TW%AT%BV%MV%GQ%SA%AV1%PK%EG%CE%LC%CN%GV%CI"
+		},
+		"isAccOn": true,
+		"_device": {
+			"$oid": "5966ad8699adb20700325dd6"
+		},
+		"_asset": {
+			"$oid": "5966adeb99adb20700325dda"
+		},
+		"_organisation": {
+			"$oid": "59226faa1ddb40fb3fdc4334"
+		},
+		"_location": null
+	},
+	{
+		"_id": {
+			"$oid": "5c8e990ae1595b002ad2afa3"
+		},
+		"duid": "356308049678185",
+		"type": "position",
+		"time": {
+			"$date": "2019-03-17T18:59:22.218Z"
+		},
+		"deviceTime": {
+			"$date": "2019-03-17T18:59:19.226Z"
+		},
+		"lat": -37.902011,
+		"lng": 175.48452799999998,
+		"speed": 0,
+		"heading": 94,
+		"alert": null,
+		"raw": "1552849159,1552849160,1552849160,175484528,-37902011,94,2,740968,10,1,0,0,0,,2000,2000,\u001a,0,73,41,140,22,8,0,0,1,6742,234,53001,FFBCFFFEFC04\u001a,%TW%AT%BV%MV%GQ%SA%AV1%PK%EG%CE%LC%CN%GV%CI",
+		"other": {
+			"header": {
+				"imei": "356308049678185",
+				"crc": "1E8F",
+				"length": "209",
+				"sequence_id": "55892"
+			},
+			"gps_date": "2019-03-17T18:59:19.000Z",
+			"rtc_date": "2019-03-17T18:59:20.000Z",
+			"position_sending_date": "2019-03-17T18:59:20.000Z",
+			"event_code": 2,
+			"mileage": 74096.8,
+			"hdop": 1,
+			"state": {
+				"inputs": [null, 1, 0, 0, 0, 0, 0, 0, 0],
+				"outputs": [null, 0, 0, 0, 0, 0, 0, 0, 0]
+			},
+			"analog_input": 0,
+			"driver_id": "",
+			"tow_status": 0,
+			"altitude": 73,
+			"backup_voltage": 4.1000000000000005,
+			"main_voltage": 14,
+			"gsm_signal": 22,
+			"gps_satellites": 8,
+			"analog_voltage": 0,
+			"parked": 0,
+			"engine_status": 1,
+			"cell_id": 6742,
+			"cell_lac": 234,
+			"cell_mcc_mnc": 53001,
+			"g_sensor_max": {
+				"x": -68,
+				"y": -2,
+				"z": -1020
+			},
+			"custom_string": "%TW%AT%BV%MV%GQ%SA%AV1%PK%EG%CE%LC%CN%GV%CI"
+		},
+		"isAccOn": true,
+		"_device": {
+			"$oid": "5966ad8699adb20700325dd6"
+		},
+		"_asset": {
+			"$oid": "5966adeb99adb20700325dda"
+		},
+		"_organisation": {
+			"$oid": "59226faa1ddb40fb3fdc4334"
+		},
+		"_location": null
+	}]
