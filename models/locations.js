@@ -26,8 +26,7 @@ class Locations {
         return JSON.stringify({
             locationID: firstItem.locationID,
             distanceTravelled: Math.ceil(lastItem.mileage - firstItem.mileage),
-            timeAtLocation: ((lastItem.time.getTime() - firstItem.time.getTime()) / (1000 * 60)).toFixed(1) + " Minutes",
-            total: list.length
+            timeAtLocation: ((lastItem.time.getTime() - firstItem.time.getTime()) / (1000 * 60)).toFixed(1) + " Minutes"
         });
     }
 }
